@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE29C0732063F41D00ACA2E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE29C0722063F41D00ACA2E2 /* AppDelegate.swift */; };
+		AE29C0752063F41D00ACA2E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE29C0742063F41D00ACA2E2 /* ViewController.swift */; };
+		AE29C0772063F41D00ACA2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE29C0762063F41D00ACA2E2 /* Assets.xcassets */; };
+		AE29C07A2063F41D00ACA2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE29C0782063F41D00ACA2E2 /* Main.storyboard */; };
+		AE29C0862063F41D00ACA2E2 /* FrogCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE29C0852063F41D00ACA2E2 /* FrogCalcTests.swift */; };
+		AE29C0912063F41D00ACA2E2 /* FrogCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE29C0902063F41D00ACA2E2 /* FrogCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE29C0822063F41D00ACA2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE29C0672063F41D00ACA2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE29C06E2063F41D00ACA2E2;
+			remoteInfo = FrogCalc;
+		};
+		AE29C08D2063F41D00ACA2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE29C0672063F41D00ACA2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE29C06E2063F41D00ACA2E2;
+			remoteInfo = FrogCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE29C06F2063F41D00ACA2E2 /* FrogCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrogCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE29C0722063F41D00ACA2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE29C0742063F41D00ACA2E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE29C0762063F41D00ACA2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE29C0792063F41D00ACA2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE29C07B2063F41D00ACA2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE29C07C2063F41D00ACA2E2 /* FrogCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FrogCalc.entitlements; sourceTree = "<group>"; };
+		AE29C0812063F41D00ACA2E2 /* FrogCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrogCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE29C0852063F41D00ACA2E2 /* FrogCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogCalcTests.swift; sourceTree = "<group>"; };
+		AE29C0872063F41D00ACA2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE29C08C2063F41D00ACA2E2 /* FrogCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrogCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE29C0902063F41D00ACA2E2 /* FrogCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogCalcUITests.swift; sourceTree = "<group>"; };
+		AE29C0922063F41D00ACA2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE29C06C2063F41D00ACA2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE29C07E2063F41D00ACA2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE29C0892063F41D00ACA2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE29C0662063F41D00ACA2E2 = {
+			isa = PBXGroup;
+			children = (
+				AE29C0712063F41D00ACA2E2 /* FrogCalc */,
+				AE29C0842063F41D00ACA2E2 /* FrogCalcTests */,
+				AE29C08F2063F41D00ACA2E2 /* FrogCalcUITests */,
+				AE29C0702063F41D00ACA2E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE29C0702063F41D00ACA2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C06F2063F41D00ACA2E2 /* FrogCalc.app */,
+				AE29C0812063F41D00ACA2E2 /* FrogCalcTests.xctest */,
+				AE29C08C2063F41D00ACA2E2 /* FrogCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE29C0712063F41D00ACA2E2 /* FrogCalc */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C0722063F41D00ACA2E2 /* AppDelegate.swift */,
+				AE29C0742063F41D00ACA2E2 /* ViewController.swift */,
+				AE29C0762063F41D00ACA2E2 /* Assets.xcassets */,
+				AE29C0782063F41D00ACA2E2 /* Main.storyboard */,
+				AE29C07B2063F41D00ACA2E2 /* Info.plist */,
+				AE29C07C2063F41D00ACA2E2 /* FrogCalc.entitlements */,
+			);
+			path = FrogCalc;
+			sourceTree = "<group>";
+		};
+		AE29C0842063F41D00ACA2E2 /* FrogCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C0852063F41D00ACA2E2 /* FrogCalcTests.swift */,
+				AE29C0872063F41D00ACA2E2 /* Info.plist */,
+			);
+			path = FrogCalcTests;
+			sourceTree = "<group>";
+		};
+		AE29C08F2063F41D00ACA2E2 /* FrogCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C0902063F41D00ACA2E2 /* FrogCalcUITests.swift */,
+				AE29C0922063F41D00ACA2E2 /* Info.plist */,
+			);
+			path = FrogCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE29C06E2063F41D00ACA2E2 /* FrogCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE29C0952063F41D00ACA2E2 /* Build configuration list for PBXNativeTarget "FrogCalc" */;
+			buildPhases = (
+				AE29C06B2063F41D00ACA2E2 /* Sources */,
+				AE29C06C2063F41D00ACA2E2 /* Frameworks */,
+				AE29C06D2063F41D00ACA2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrogCalc;
+			productName = FrogCalc;
+			productReference = AE29C06F2063F41D00ACA2E2 /* FrogCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE29C0802063F41D00ACA2E2 /* FrogCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE29C0982063F41D00ACA2E2 /* Build configuration list for PBXNativeTarget "FrogCalcTests" */;
+			buildPhases = (
+				AE29C07D2063F41D00ACA2E2 /* Sources */,
+				AE29C07E2063F41D00ACA2E2 /* Frameworks */,
+				AE29C07F2063F41D00ACA2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE29C0832063F41D00ACA2E2 /* PBXTargetDependency */,
+			);
+			name = FrogCalcTests;
+			productName = FrogCalcTests;
+			productReference = AE29C0812063F41D00ACA2E2 /* FrogCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE29C08B2063F41D00ACA2E2 /* FrogCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE29C09B2063F41D00ACA2E2 /* Build configuration list for PBXNativeTarget "FrogCalcUITests" */;
+			buildPhases = (
+				AE29C0882063F41D00ACA2E2 /* Sources */,
+				AE29C0892063F41D00ACA2E2 /* Frameworks */,
+				AE29C08A2063F41D00ACA2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE29C08E2063F41D00ACA2E2 /* PBXTargetDependency */,
+			);
+			name = FrogCalcUITests;
+			productName = FrogCalcUITests;
+			productReference = AE29C08C2063F41D00ACA2E2 /* FrogCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE29C0672063F41D00ACA2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Robert Dodson";
+				TargetAttributes = {
+					AE29C06E2063F41D00ACA2E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AE29C0802063F41D00ACA2E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE29C06E2063F41D00ACA2E2;
+					};
+					AE29C08B2063F41D00ACA2E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE29C06E2063F41D00ACA2E2;
+					};
+				};
+			};
+			buildConfigurationList = AE29C06A2063F41D00ACA2E2 /* Build configuration list for PBXProject "FrogCalc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE29C0662063F41D00ACA2E2;
+			productRefGroup = AE29C0702063F41D00ACA2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE29C06E2063F41D00ACA2E2 /* FrogCalc */,
+				AE29C0802063F41D00ACA2E2 /* FrogCalcTests */,
+				AE29C08B2063F41D00ACA2E2 /* FrogCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE29C06D2063F41D00ACA2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE29C0772063F41D00ACA2E2 /* Assets.xcassets in Resources */,
+				AE29C07A2063F41D00ACA2E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE29C07F2063F41D00ACA2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE29C08A2063F41D00ACA2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE29C06B2063F41D00ACA2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE29C0752063F41D00ACA2E2 /* ViewController.swift in Sources */,
+				AE29C0732063F41D00ACA2E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE29C07D2063F41D00ACA2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE29C0862063F41D00ACA2E2 /* FrogCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE29C0882063F41D00ACA2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE29C0912063F41D00ACA2E2 /* FrogCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE29C0832063F41D00ACA2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE29C06E2063F41D00ACA2E2 /* FrogCalc */;
+			targetProxy = AE29C0822063F41D00ACA2E2 /* PBXContainerItemProxy */;
+		};
+		AE29C08E2063F41D00ACA2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE29C06E2063F41D00ACA2E2 /* FrogCalc */;
+			targetProxy = AE29C08D2063F41D00ACA2E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE29C0782063F41D00ACA2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE29C0792063F41D00ACA2E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE29C0932063F41D00ACA2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE29C0942063F41D00ACA2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AE29C0962063F41D00ACA2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FrogCalc/FrogCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
+				INFOPLIST_FILE = FrogCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.FrogCalc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AE29C0972063F41D00ACA2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FrogCalc/FrogCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
+				INFOPLIST_FILE = FrogCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.FrogCalc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		AE29C0992063F41D00ACA2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
+				INFOPLIST_FILE = FrogCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.FrogCalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrogCalc.app/Contents/MacOS/FrogCalc";
+			};
+			name = Debug;
+		};
+		AE29C09A2063F41D00ACA2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
+				INFOPLIST_FILE = FrogCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.FrogCalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrogCalc.app/Contents/MacOS/FrogCalc";
+			};
+			name = Release;
+		};
+		AE29C09C2063F41D00ACA2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
+				INFOPLIST_FILE = FrogCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.FrogCalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FrogCalc;
+			};
+			name = Debug;
+		};
+		AE29C09D2063F41D00ACA2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
+				INFOPLIST_FILE = FrogCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.FrogCalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FrogCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE29C06A2063F41D00ACA2E2 /* Build configuration list for PBXProject "FrogCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE29C0932063F41D00ACA2E2 /* Debug */,
+				AE29C0942063F41D00ACA2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE29C0952063F41D00ACA2E2 /* Build configuration list for PBXNativeTarget "FrogCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE29C0962063F41D00ACA2E2 /* Debug */,
+				AE29C0972063F41D00ACA2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE29C0982063F41D00ACA2E2 /* Build configuration list for PBXNativeTarget "FrogCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE29C0992063F41D00ACA2E2 /* Debug */,
+				AE29C09A2063F41D00ACA2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE29C09B2063F41D00ACA2E2 /* Build configuration list for PBXNativeTarget "FrogCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE29C09C2063F41D00ACA2E2 /* Debug */,
+				AE29C09D2063F41D00ACA2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE29C0672063F41D00ACA2E2 /* Project object */;
+}
