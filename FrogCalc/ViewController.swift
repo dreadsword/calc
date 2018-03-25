@@ -17,6 +17,7 @@ enum Operation
     case None
 }
 
+
 class ViewController: NSViewController
 {
     var tmp: Float = 0.0
@@ -30,6 +31,9 @@ class ViewController: NSViewController
     }
 
     
+    //
+    // Append a character to the register
+    //
     func append(val:String)
     {
         if (needclear)
@@ -42,6 +46,9 @@ class ViewController: NSViewController
     }
    
     
+    //
+    // do math
+    //
     func calc()
     {
         switch lastop
@@ -64,6 +71,9 @@ class ViewController: NSViewController
     }
     
     
+    //
+    // do an operation
+    //
     func accum(op:Operation)
     {
         if (lastop == .None)
@@ -83,7 +93,7 @@ class ViewController: NSViewController
 
     
     //
-    //  Handle for number textfield
+    //  Handle for number textfield called the "register"
     //
     @IBOutlet weak var register: NSTextField!
 
